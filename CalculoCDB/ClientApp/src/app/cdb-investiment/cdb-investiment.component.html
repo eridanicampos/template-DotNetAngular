@@ -1,0 +1,18 @@
+<div class="container-fluid my-3">
+    <div class="row">
+        <div class="col-sm-4 col-md-2 col-lg-1">
+            <label for="valor">Valor:</label>
+        </div>
+        <input type="number" id="valor" name="valor" min="0" step="0.01" [(ngModel)]="valor" >
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-2 col-lg-1">
+            <label for="prazo">Prazo :</label> <br />
+        </div>
+        <input type="number" id="prazo" name="prazo" min="2" step="1" [(ngModel)]="prazo"> (em meses)
+    </div>
+
+        <div class="row">
+            <button (click)="calcularInvestimento()">Calcular investimento</button>
+        </div>
+    </div>
