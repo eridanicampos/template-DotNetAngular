@@ -22,10 +22,10 @@ namespace CalculoCDB.Controllers
         }
 
         [HttpPost("calcularInvestimento")]
-        public async Task<decimal> CalcularInvestimento([FromBody] InvestimentCDBModel investimentCDBModel)
-        {
+        public async Task<IActionResult> CalcularInvestimento([FromBody] InvestimentCDBModel investimentCDBModel)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+       {
             _logger.LogDebug("Inicio do método CalcularInvestimento ");
-            return await _CDBService.CalcularCDBInvestimento(investimentCDBModel);
+            return Ok(await _CDBService.CalcularCDBInvestimento(investimentCDBModel));
         }
 
     }

@@ -6,7 +6,7 @@ namespace Services.Models
 {
     public class InvestimentCDBModel
     {
-        public decimal ValorInicial { get; set; }
-        public int PrazoMeses { get; set; }
+        public decimal amount { get; set; }
+        public int months { get; set; }
     }
 }

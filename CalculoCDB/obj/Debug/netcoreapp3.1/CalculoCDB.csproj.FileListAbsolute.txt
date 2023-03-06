@@ -112,3 +112,7 @@ C:\_Source\template-DotNetAngular\CalculoCDB\obj\Debug\netcoreapp3.1\CalculoCDB.
 C:\_Source\template-DotNetAngular\CalculoCDB\obj\Debug\netcoreapp3.1\CalculoCDB.Views.pdb
 C:\_Source\template-DotNetAngular\CalculoCDB\obj\Debug\netcoreapp3.1\CalculoCDB.csproj.CopyComplete
 C:\_Source\template-DotNetAngular\CalculoCDB\obj\Debug\netcoreapp3.1\CalculoCDB.genruntimeconfig.cache
+C:\_Source\template-DotNetAngular\CalculoCDB\bin\Debug\netcoreapp3.1\Ioc.dll
+C:\_Source\template-DotNetAngular\CalculoCDB\bin\Debug\netcoreapp3.1\Ioc.pdb
+C:\_Source\template-DotNetAngular\CalculoCDB\bin\Debug\netcoreapp3.1\Template.Swagger.dll
+C:\_Source\template-DotNetAngular\CalculoCDB\bin\Debug\netcoreapp3.1\Template.Swagger.pdb

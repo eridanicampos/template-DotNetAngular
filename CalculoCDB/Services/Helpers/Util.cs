@@ -9,7 +9,7 @@ namespace Services
 		public static decimal ObterCDI()
 		{
 			// Lógica para obter o valor da CDI do último mês         
-			return 0.009m;
+			return 0.09m;
 		}
 
 

@@ -1,0 +1,12 @@
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\bin\Debug\netcoreapp3.1\Ioc.deps.json
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\bin\Debug\netcoreapp3.1\Ioc.dll
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\bin\Debug\netcoreapp3.1\Ioc.pdb
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\bin\Debug\netcoreapp3.1\Services.dll
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\bin\Debug\netcoreapp3.1\Services.pdb
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.csproj.AssemblyReference.cache
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.AssemblyInfoInputs.cache
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.AssemblyInfo.cs
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.csproj.CoreCompileInputs.cache
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.csproj.CopyComplete
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.dll
+C:\_Source\template-DotNetAngular\CalculoCDB\Ioc\obj\Debug\netcoreapp3.1\Ioc.pdb

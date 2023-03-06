@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZyqoUFOLYQh8/Zz1ho2riwHTlVCNJJHjTl2PG4wG6P6S5IPz/bccdW84+DDqByYkLmqa/LWdi2/uOxRIyMMUvA==",
+  "dgSpecHash": "+A/zn8ddxmwNSd4q9Ap1IpNjvGbAdd1z54KP89BP9+MWCO9k4i1/lLCC4qwbW2K3PilLEUciNDFyxk/c2QtJsQ==",
   "success": true,
   "projectFilePath": "C:\\_Source\\template-DotNetAngular\\CalculoCDB\\CalculoCDB.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,8 @@
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.29\\microsoft.extensions.configuration.3.1.29.nupkg.sha512",
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.29\\microsoft.extensions.configuration.abstractions.3.1.29.nupkg.sha512",
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.29\\microsoft.extensions.configuration.binder.3.1.29.nupkg.sha512",
-    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.29\\microsoft.extensions.dependencyinjection.3.1.29.nupkg.sha512",
-    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.29\\microsoft.extensions.dependencyinjection.abstractions.3.1.29.nupkg.sha512",
+    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.29\\microsoft.extensions.fileproviders.abstractions.3.1.29.nupkg.sha512",
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.29\\microsoft.extensions.fileproviders.physical.3.1.29.nupkg.sha512",
     "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.29\\microsoft.extensions.filesystemglobbing.3.1.29.nupkg.sha512",

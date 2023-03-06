@@ -9,20 +9,18 @@ namespace Services
 	{
 		public async Task<decimal> CalcularCDBInvestimento(InvestimentCDBModel investimentCDBModel)
 		{
-			decimal valorInvestido = investimentCDBModel.ValorInicial;
-			decimal valorBruto = investimentCDBModel.ValorInicial;
-			decimal valorLiquido = investimentCDBModel.ValorInicial;
+			decimal valorBruto = investimentCDBModel.amount;
+			decimal valorLiquido = investimentCDBModel.amount;
 
-			for (int i = 1; i <= investimentCDBModel.PrazoMeses; i++)
+			for (int i = 1; i <= investimentCDBModel.months; i++)
 			{
                 decimal cdi = Util.ObterCDI();
-				decimal valorBrutoMes = valorInvestido * (1 + (cdi * Util.ObterTaxaBanco()));
-				decimal valorLiquidoMes = await CalcularValorLiquido(valorBrutoMes, i);
-				valorBruto += valorBrutoMes;
-				valorLiquido += valorLiquidoMes;
-				valorInvestido = valorLiquidoMes;
+				decimal valorBrutoMes = valorBruto * (1 + (cdi * Util.ObterTaxaBanco()));
+				valorBruto = valorBrutoMes;
 			}
-			return valorLiquido;
+			valorLiquido = await CalcularValorLiquido(valorBruto, investimentCDBModel.months);
+
+			return Math.Round(valorLiquido, 2); 
 		}
 
 

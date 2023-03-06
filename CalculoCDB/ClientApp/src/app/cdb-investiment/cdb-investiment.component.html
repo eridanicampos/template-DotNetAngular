@@ -3,16 +3,26 @@
         <div class="col-sm-4 col-md-2 col-lg-1">
             <label for="valor">Valor:</label>
         </div>
-        <input type="number" id="valor" name="valor" min="0" step="0.01" [(ngModel)]="valor" >
+        <input currencyMask type="number" id="idAmount" name="amount" min="0" step="0.01" [(ngModel)]="amount" />
+        
     </div>
     <div class="row">
         <div class="col-sm-4 col-md-2 col-lg-1">
             <label for="prazo">Prazo :</label> <br />
         </div>
-        <input type="number" id="prazo" name="prazo" min="2" step="1" [(ngModel)]="prazo"> (em meses)
+        <input type="number" id="idMonths" name="months" step="1" [(ngModel)]="months"  mask="0-9" maxlength="3" /> (em meses)
+    </div>
+    <br />
+    <div class="row">
+        <button (click)="calcularInvestimento()">Calcular investimento</button>
     </div>
 
-        <div class="row">
-            <button (click)="calcularInvestimento()">Calcular investimento</button>
+
+    <div class="row" *ngIf="result != null">
+        <div class="col-sm-12 col-md-18">
+            <label for="resultado">O resultado do Calculo de CDB : {{result }}</label> 
         </div>
     </div>
+</div>
+
+

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "74dPSm3QRTf5Re/OpDHzzsbovoxZ7mXUPMaAtJHiRIrEGU4dVoaPCR16fY3rJLxCfOGq36cF3803JvWoptfkOw==",
+  "success": true,
+  "projectFilePath": "C:\\_Source\\template-DotNetAngular\\CalculoCDB\\Ioc\\Ioc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\EIIGA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,11 +1,11 @@
+using Ioc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
+using Template.Swagger;
 
 namespace CalculoCDB
 {
@@ -22,6 +22,10 @@ namespace CalculoCDB
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            NativeInjector.RegisterServices(services);
+            services.AddSwaggerCongiguration();
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
@@ -43,6 +47,7 @@ namespace CalculoCDB
                 app.UseHsts();
             }
 
+            app.UseSwaggerConfiguration();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             if (!env.IsDevelopment())
